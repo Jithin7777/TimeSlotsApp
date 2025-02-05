@@ -25,7 +25,7 @@ export default function AvailabilityPage({ params }) {
 
   return (
     <div className="min-h-screen flex justify-center items-center bg-gray-50">
-      <div className=" max-w-4xl p-6 bg-white rounded-lg shadow-md">
+      <div className=" max-w-4xl p-3 bg-white rounded-lg shadow-md">
         <button
           onClick={() => router.push("/")}
           className="sm:w-auto bg-gray-600 text-white py-2 px-4 rounded-md flex items-center gap-2 hover:bg-gray-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-400"

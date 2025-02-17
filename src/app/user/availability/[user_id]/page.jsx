@@ -30,7 +30,7 @@ export default function AvailabilityPage({ params }) {
           onClick={() => router.push("/")}
           className="sm:w-auto bg-gray-600 text-white py-2 px-4 rounded-md flex items-center gap-2 hover:bg-gray-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-400"
         >
-          <FaArrowLeft className="text-white" /> {/* Add the back arrow icon */}
+          <FaArrowLeft className="text-white" /> 
           Back
         </button>
         <h1 className="text-3xl mt-5 font-bold text-center text-blue-600 mb-6">
